@@ -23,6 +23,10 @@ public class day03_methodcreationscanner {
         String str1="hayat güxeldir";
 
 
+       int sonuc=carpma(8,12);
+        System.out.println(sonuc);
+
+
 
 
         //ornek 3: verilen iki tam sayiyi carpan ve sonucu ekrana yazdıran method olusturp kullanınız.
@@ -36,6 +40,12 @@ public class day03_methodcreationscanner {
         int c=8;
         kareal(c);
     }
+
+    private static void int carpma(int a,int b) {
+        return a*b;
+    }
+
+
     private static void kareal(int c) {
         System.out.println(c*c);
     }
