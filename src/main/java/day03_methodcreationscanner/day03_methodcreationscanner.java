@@ -3,10 +3,10 @@ package day03_methodcreationscanner;
 public class day03_methodcreationscanner {
     public static void main(String[] args) {
 
-        double kup =getCube(5);
+        double kup = getCube(5);
         System.out.println("kup = " + kup);
 
-        double kup1=getCube(22.8);
+        double kup1 = getCube(22.8);
         System.out.println("kup1 = " + kup1);
 
         print("java is easy");
@@ -15,35 +15,28 @@ public class day03_methodcreationscanner {
         //ornek 2: girilen bir kelimeyi ekrana yazdıran bir method olusturup kullanınız
         //main method icinde iken method ta kullanılacak olan variable lari olusturunuz
 
-        String str="TechproEdu";
+        String str = "TechproEdu";
         //method ismi ve parametreleri yazınız
         //kirmizi kismin uzerinde bekleyip create methoda tiklariz intellij otomatik olarak bir method olusturur
         //daha sonrakendi istegimize gore dizayn eder.
         printConsole(str);
-        String str1="hayat güxeldir";
-
-
-       int sonuc=carpma(8,12);
-        System.out.println(sonuc);
-
-
+        String str1 = "hayat güxeldir";
 
 
         //ornek 3: verilen iki tam sayiyi carpan ve sonucu ekrana yazdıran method olusturp kullanınız.
 
-        int a=5;
-        int b=6;
-        carpmaYap(a,b);
+        int a = 5;
+        int b = 6;
+        carpmaYap(a, b);
 
         //ornek 4: verilen bir tamsayinin karesini alan ve ekrana yazdıran method olusturunuz.
 
-        int c=8;
+        int c = 8;
         kareal(c);
+
+
     }
 
-    private static void int carpma(int a,int b) {
-        return a*b;
-    }
 
 
     private static void kareal(int c) {
