@@ -3,7 +3,7 @@ package day05ConcatinationOperatorsTypecasting;
 public class concatination {//concatination:birleştirme demektir
     public static void main(String[] args) {
 
-        //ornek:1 bir string ve 2 int variable oluşturun. string degeeri ile int lerin toplamnı konsola yazdırınız.
+        //ornek:1 bir string ve 2 int variable oluşturun. string degeri ile int lerin toplamını konsola yazdırınız.
         String str="elma";
         int a=10;
         int b=11;
@@ -15,7 +15,7 @@ public class concatination {//concatination:birleştirme demektir
         System.out.println(a+str+b);//10elma11
 
         //Java da  "+" sembolu iki sayı arasında kullanılırsa toplama işlemi olur
-        //Java da  "+" sembolu iki string veya bir string bir isayi arasında kullanılırsa "concatination"(birleştirme)  yapar.
+        //Java da  "+" sembolu iki string veya bir string bir sayi arasında kullanılırsa "concatination"(birleştirme)  yapar.
 
         //note: concatination işlemlerinde java matematikteki işlem önceliği kurallarını kullanır.
         /*
@@ -42,7 +42,7 @@ public class concatination {//concatination:birleştirme demektir
         String radio="$300";
         System.out.println(tv+radio);//$1100$300
         int totalprice=Integer.valueOf(tv)+Integer.valueOf(radio);
-        System.out.println(totalprice);
+        System.out.println(totalprice);//$1100$300
 
         //note:ValueOf() methodu tüm karakterleri rakam olan String leri sayilara çevirir.
         //Eger Valueof() methodu kullanırken String in içine rakam olmayan bir karakter koyarsanız hata alırsınız.

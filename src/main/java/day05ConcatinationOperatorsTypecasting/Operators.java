@@ -40,6 +40,7 @@ public class Operators {
         System.out.println(third);//false
         System.out.println(first && second);//false
         System.out.println(first||second||third);//true
+        System.out.println(second && third && first);//false
 
 
 

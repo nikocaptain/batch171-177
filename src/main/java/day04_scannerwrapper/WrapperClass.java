@@ -41,7 +41,7 @@ public class WrapperClass {
         Integer wrapperNum=num;
         //primitiveden non primitive cevirme islemine "Autoboxing" denir.wrapper sarmalama demektir.
         System.out.println("wrapperNum = " + wrapperNum);
-        //ornek 4: wrapper byte ı primitive byte aceviriniz
+        //ornek 4: wrapper byte ı primitive byte a ceviriniz
 
         Byte num1=33;
         byte primitivenum= num1;
