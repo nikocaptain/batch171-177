@@ -10,9 +10,9 @@ public class AsciiValues {
         char a='a';
         System.out.println(a);//a
         int x='a';
-        System.out.println("x = " + x);//97
+        System.out.println("a nin ascii degeri = " + x);//97
 
-        //herhangi bir kkarakterin ASCII degerini bulmak icin o karakteri int data type ında bir variable içine koyunuz.
+        //herhangi bir karakterin ASCII degerini bulmak icin o karakteri int data type ında bir variable içine koyunuz.
 
         int k='!';
         System.out.println(k);//33
