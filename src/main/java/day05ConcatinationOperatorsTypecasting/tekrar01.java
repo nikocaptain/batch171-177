@@ -27,6 +27,9 @@ public class tekrar01 {
         String tvv="7000";
         int aa=Integer.valueOf(tvv);
         System.out.println(aa);
+        String aaa="melek";
+        int mm=234;
+        System.out.println(aaa+mm);
 
 
     }

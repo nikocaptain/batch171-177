@@ -56,5 +56,7 @@ public class StringManipulations01 {
         String t7=t.replaceAll("[^aeiouAEIOU]","&");
         System.out.println("t7 = " + t7);
 
+
+
     }
 }

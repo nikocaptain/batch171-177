@@ -29,7 +29,7 @@ public class StringManipulations01 {
         int sLengt=s.length();
         System.out.println("sLengt = " + sLengt);//12
 
-        //ornek 6: "s1" stringindeki ilk 4 karakteri alınız
+        //ornek 6: "s" stringindeki ilk 4 karakteri alınız
         // s.substring(0,4)==> bu kullanımda ilk index dahildir ikinci index hariçtir
 
         String sub1=s.substring(0,4);

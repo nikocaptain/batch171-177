@@ -11,9 +11,9 @@ public class IfStatements {
             System.out.println(num + "==> pozitiftir");
         }
         //ornek 2 sayı -1 ile 10 arasında ise ekrana rakam yazdırın
-        int n = 10;
+        int n = -5;
         if (n > -1 && n < 10) {
-            System.out.println("Rakam");
+            System.out.println(n+"  :  Rakam");
         }
     }
 }

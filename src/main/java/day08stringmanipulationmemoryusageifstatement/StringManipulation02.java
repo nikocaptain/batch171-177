@@ -20,7 +20,7 @@ public class StringManipulation02 {
   //------------------------------------------------------------------------------------------------------------------
         //Java da memory kullanımı
         /*
-        java da 2 tsne memory vardır
+        java da 2 tane memory vardır
         1)Stack memory==>Small
         a)küçük memory dir.
         b)primitive leri ve non primitive lerin adreslerini(reference) tutar
@@ -28,7 +28,7 @@ public class StringManipulation02 {
         2)Heap memory==>huge
         a)büyük memory dir.
         b) non primitive dataları içerir.
-     ==>Java heap memory deyerleştirilen tüm non primitive datalar iin bir adres oluşturur
+     ==>Java heap memory de yerleştirilen tüm non primitive datalar icin bir adres oluşturur
      // ve bu adresi stack memory e saklar
          */
         /*

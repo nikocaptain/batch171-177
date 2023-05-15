@@ -22,7 +22,7 @@ public class TypeCasting {
         int weight=312;
         short weight1=(short)weight;//explicitnarrowing
 
-        //int data TYPE INI FLOAT DATA TYPE INA cwviriniz
+        //int data TYPE INI FLOAT DATA TYPE INA ceviriniz
 
         int sayi=25;
         System.out.println(sayi);
