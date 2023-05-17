@@ -11,7 +11,7 @@ public class NestedIf02 {
                     Tum kenarlari birbirinden farkli ise "Cesitkenar Ucgen" yazdiriniz        */
 
         Scanner input =new Scanner(System.in);
-        System.out.println("Ucgenin kenarlari için 3 tane uzunluk girini...");
+        System.out.println("Ucgenin kenarlari için 3 tane uzunluk giriniz...");
         double a=input.nextDouble();
         double b= input.nextDouble();
         double c= input.nextDouble();

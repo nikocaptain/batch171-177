@@ -17,8 +17,9 @@ public class NestedIf03 {
         System.out.println("Lütfen şifrenizi giriniz");
 
         String pwd=input.nextLine();
+        //Note : "best practice" bir methodu tekrar tekrar kullanmak gerekiyorsa variable a atayarak  kullanmak daha makuludur.
 
-        if (pwd.charAt(0)>='A'&&pwd.charAt(0)<='Z'){//Password'un ilk harfi buyuk harf ise
+        if (pwd.charAt(0)>='A'&&pwd.charAt(0)<='Z'){//Password'un ilk harfi buyuk harf ise ascıı deger tablosuna gore yapılır.
             if (pwd.charAt(0)=='A'){
                 System.out.println("gecerli password");
 
