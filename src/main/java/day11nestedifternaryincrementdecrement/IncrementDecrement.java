@@ -43,8 +43,7 @@ public class IncrementDecrement {
         System.out.println(e);//12
         e/=2;
         System.out.println(e);//6
-        e/=2;
-        System.out.println(e);//3
+
 
         //"1" ile increment
 
@@ -66,8 +65,8 @@ public class IncrementDecrement {
 
         int m=15;
         int n=++m;
-        System.out.println(m);
-        System.out.println(n);
+        System.out.println(m);//16
+        System.out.println(n);//16
 
         int p=17;
         int r=p--;

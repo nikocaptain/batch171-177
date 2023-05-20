@@ -14,7 +14,7 @@ Degilse kelimenin basına ve sonuna, kelimenin son uc harfini ekleyerek yazdır�
         Scanner input=new Scanner(System.in);
         System.out.println("Lütfen bir kelime giriniz...");
         String word=input.nextLine();
-        if (word.length()<3){
+        if (word.length()<=3){
             System.out.println("Lütfen 3 karakterden uzun kelime giriniz...");
 
         }else {

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ternary01 {
     public static void main(String[] args) {
         //ternary Statement :
-        //ornek 1: sayi 10 dan küçük ise konsola "küçük " yzdırın değilse " kucuk degil" yazdırın
+        //ornek 1: sayi 10 dan küçük ise konsola "küçük " yazdırın değilse " kucuk degil" yazdırın
         //-----------if else çözümü------------------
 
         int num =2;

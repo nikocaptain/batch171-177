@@ -1,8 +1,12 @@
 package day11nestedifternaryincrementdecrement;
 
 public class Regex {
+    public static void main(String[] args) {
+
+
     /*Java'da String manipülasyonları:
-    Bir String nesnesinin içeriğini değiştirmek, dönüştürmek veya işlemek için kullanılan yöntemler ve işlemlerdir. Aşağıda, Java'da kullanılan bazı temel String manipülasyonları ve anlamları açıklanmıştır:
+    Bir String nesnesinin içeriğini değiştirmek, dönüştürmek veya işlemek için kullanılan yöntemler ve işlemlerdir.
+    Aşağıda, Java'da kullanılan bazı temel String manipülasyonları ve anlamları açıklanmıştır:
 
     length(): Bir String'in karakter sayısını döndürür.
 
@@ -22,7 +26,7 @@ public class Regex {
             substring(int beginIndex): Belirtilen indeksten başlayarak String'in bir bölümünü alır.
 
     Örnek: "Hello World".substring(6) çıktısı "World" olur.
-            substring(int beginIndex, int endIndex): Belirtilen başlangıç ve bitiş indeksleri arasındaki bir bölümüalır.
+            substring(int beginIndex, int endIndex): Belirtilen başlangıç ve bitiş indeksleri arasındaki bir bölümü alır.
 
     Örnek: "Hello World".substring(0, 5) çıktısı "Hello" olur.
             indexOf(String str): Belirtilen alt dizenin başlangıç indeksini döndürür.
@@ -45,5 +49,5 @@ public class Regex {
 
      */
 
-
+    }
 }
