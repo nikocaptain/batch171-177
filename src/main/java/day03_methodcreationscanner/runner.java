@@ -21,6 +21,7 @@ public class runner {
 
 
 
+
         //homework
         //icinde isim ve yas variable lari ile teach methodu bulunan teacher objesi olusturun ve obje uzerinde bu ozellikleri kullanın
 

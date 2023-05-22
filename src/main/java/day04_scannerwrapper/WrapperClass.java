@@ -34,6 +34,8 @@ public class WrapperClass {
 
         int minint= Integer.MIN_VALUE;
         System.out.println("minint = " + minint);
+        System.out.println("ttt  :"+minint+maxbyte);
+
 
         //ornek 3: primitive int i wrapper Integer a ceviriniz
 
