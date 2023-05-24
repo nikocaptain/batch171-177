@@ -27,7 +27,7 @@ public class Loops02 {
             }
 
         }
-        //ornek 3: verilen bir String de ilk a harfinden önceki tüm characterlr i konsola yazdırınız.
+        //ornek 3: verilen bir String de ilk a harfinden önceki tüm characterler i konsola yazdırınız.
 
         String s1="I Love Java";
         for (int i=0;i<s1.length();i++){
