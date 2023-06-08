@@ -82,9 +82,10 @@ public class Variables01 {//class isimleri büyük harfle başlar.
 
         int UlkeNufusu= 90000000;
 
+
         //long data type:
         //tam sayilar icindir hafizada 8 byte yer kaplar.
-        //long: -2,147,483,648 den baslar 2,147,483,647 e (dahil) kadar tamsayi degerleri icin kullanılır.
+        //long: -2,147,483,648() den baslar 2,147,483,647 e (dahil) kadar tamsayi degerleri icin kullanılır.
 
         //ornek 7:insan vücundaki hucre sayisi icin variable olusturup deger atayin
 
@@ -124,7 +125,7 @@ public class Variables01 {//class isimleri büyük harfle başlar.
 
         byte note1=55;
         byte note2=88;
-        System.out.println("Ogrenci notlari toplami ="+" "+(note1+note2) );
+        System.out.println("Ogrenci notlari toplami = "+(note1+note2) );
         System.out.println(note1+note2);
         System.out.println("note1 = " + note1);
 

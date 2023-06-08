@@ -14,6 +14,9 @@ public class Runnerodev {
         teacher.anlayis();
         teacher.ilgili();
         teacher.sabirli();
+        String tc=teacher.ogretmeninIsmi;
+        System.out.println("tc = " + tc);
+        teacher.sabirli();
 
     }
 }

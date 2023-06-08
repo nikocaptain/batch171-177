@@ -35,6 +35,7 @@ public class MethodCreation01 {
     }
     //ornek 2 sayıyı carpma işlemi yapan bir method olusturun ve kullanın
     protected static long multiply(int a,int b){
+
         return a*b;
     }
 
@@ -45,6 +46,7 @@ public class MethodCreation01 {
         return a*b+c;
 
     }
+
 
 }
         // odev 1 dikdörtgenin alanını hesaplayan methodu olusturun ve kullanın

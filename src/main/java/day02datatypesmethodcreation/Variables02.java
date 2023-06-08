@@ -15,8 +15,8 @@ public class Variables02 {
         note 2: primitive data type'larin isimlerinde sadece kucuk harf kullanılır.
         note 3: primitive data'lar data type'larina gore memory de farkli yer kaplarlar.
         note 4: primitive data'lar iclerinde SADECE sizin atadiginiz degeri barindirirlar
-         */
-        /*
+
+
         Non-primitive data types
         Ornek=> String.... sayisi belirsizdir.
             *uretilen her bir class ayni zamanda bir Non-primitive data type dir.
@@ -24,6 +24,7 @@ public class Variables02 {
             *Non-primitive data type ların isimleri buyuk harfle baslar.
             *Non-primitive ler icin java memory de buyuklugune gore degisen boyutlarda yer ayirir.
             *Non-primitive ler ayrıca class lardır.
+            *"Non-primitive" ler bizim atadıgımız degeri ve method lari icerir.
 
          */
         public static void main(String[] args) {

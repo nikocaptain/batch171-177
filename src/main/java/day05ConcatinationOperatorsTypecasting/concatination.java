@@ -32,7 +32,7 @@ public class concatination {//concatination:birleştirme demektir
         String shirt="2300";
         String shoes="5200";
         System.out.println(shirt+shoes);
-        // Integer.valueOf() String degerleri integer a cevirir.
+        //Integer.valueOf() String degerleri integer a cevirir.
         int toplamfiyat=Integer.valueOf(shirt)+Integer.valueOf(shoes);
         System.out.println("toplamfiyat = " + toplamfiyat);
 
@@ -43,6 +43,9 @@ public class concatination {//concatination:birleştirme demektir
         System.out.println(tv+radio);//$1100$300
         int totalprice=Integer.valueOf(tv)+Integer.valueOf(radio);
         System.out.println(totalprice);//$1100$300
+
+
+
 
         //note:ValueOf() methodu tüm karakterleri rakam olan String leri sayilara çevirir.
         //Eger Valueof() methodu kullanırken String in içine rakam olmayan bir karakter koyarsanız hata alırsınız.

@@ -31,14 +31,14 @@ public class TypeCasting {
         //double data type short data type ceviriniz
         double num=28.88;
         System.out.println(num);
-        short num1=(short)num;
+        short num1=(short)num;//parantez içinde short yazdık explicitnarrowing yaptık
         System.out.println(num1);
 
         short num2=260;
         System.out.println(num2);
 
-        byte numbyte= (byte)num2;
-        System.out.println(numbyte);
+        byte numbyte= (byte)num2;//260-256=4
+        System.out.println(numbyte);//4
         //Donusum yaptigimiz sayi(260) donuseceginiz data type inin sinirlari disinda ise
         // java kullandiginiz sayi ile mod islemi yapar ve mod isleminin
         //sonucu sizin yeni degeriniz olur
