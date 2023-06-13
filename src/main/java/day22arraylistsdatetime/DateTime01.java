@@ -32,6 +32,7 @@ public class DateTime01 {
         DayOfWeek weekName = myCurrentDate.getDayOfWeek();
         System.out.println(weekName);//WEDNESDAY
 
+
         System.out.println("myCurrentDate.plusDays(5) = " + myCurrentDate.plusDays(5).plusMonths(5).plusYears(5));//2028-11-12
 
         //geçmiş tarihe nasil gidilir
@@ -40,9 +41,11 @@ public class DateTime01 {
 
         //spesifik bir tarih objesi nasil olusturulur
         LocalDate date1 = LocalDate.of(1980, 8, 10);
+        System.out.println("date1 = " + date1);
 
 
         LocalDate date2 = LocalDate.of(1990, 8, 10);
+        System.out.println("date2 = " + date2);
 
 
         //Bir tarihin başka bir tarihten sonra olup olmadigini nasil kontrol ederiz?
@@ -53,6 +56,7 @@ public class DateTime01 {
 
         boolean r2 = date1.isBefore(date2);
         System.out.println(r2);//true
+
 
         //bir tarihin bir tarihe esit olup olmadigini nasil kontrol ederiz
 

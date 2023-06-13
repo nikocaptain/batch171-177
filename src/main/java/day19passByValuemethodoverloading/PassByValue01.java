@@ -15,8 +15,9 @@ public class PassByValue01 {
         System.out.println(shirtPrice);//100
         System.out.println(discount("veteran", shirtPrice));//80
         System.out.println("discount(\"senior\",shirtPrice) = " + discount("senior", shirtPrice));//95
-        shirtPrice=discount("veteran",shirtPrice);
+        //shirtPrice=discount("veteran",shirtPrice); shirtprice kendimiz değiştirisek orjinal deger artık atadıgımız deger olur
         System.out.println("shirtprice "+shirtPrice);
+        System.out.println("shirtPrice: "+shirtPrice);
 
 
     }

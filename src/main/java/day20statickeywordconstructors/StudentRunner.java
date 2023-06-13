@@ -28,6 +28,17 @@ public class StudentRunner {
         Student.staticMethod();//ben static methodum
         Student nonStatic1=new Student();
         nonStatic1.nonStaticMethod();//Ben Static olmayan methodum
+        String str=Student.stdName;
+        System.out.println("-----------");
+        System.out.println("str = " + str);
+        Student.staticMethod();
+
+        Student str1=new Student();
+        int str2=str1.age;
+        System.out.println("str2 = " + str2);
+        Student str3=new Student();
+
+        str3.nonStaticMethod();
 
 
 

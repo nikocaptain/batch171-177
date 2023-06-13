@@ -9,11 +9,14 @@ public class methodOverloading01 {
         //method overloading de return, access modifier,body ve static te değişkenliğin olması veya olmaması etkilemez.
 
 
+
     }
 
     public static void add(int a,int b){
         System.out.println(a+b);
     }
+
+    public static double add(int b,short a,double c){return a+b*c;}
     private static void add(double a,double b){
         System.out.println(a+b);
    }
@@ -36,10 +39,10 @@ public class methodOverloading01 {
     3) Java icin "ismi" ve "parametreleri" ayni olan iki method tamamen aynidir
     bu yüzden ismi ve parametre "Method signature" olarak adlandirilir.
 
-    4) Method Overloading olustururken return type i degistirmenin hicbir etkisi yoktur
-    Method Overloading olustururken access modifier i degistirmenin hicbir etkisi yoktur
-    Method Overloading olustururken method u static yada non-static yapmanin hicbir etkisi yoktur
-    Method Overloading olustururken bodyi degistirmenin hicbir etkisi yoktur
+    4)  Method Overloading olustururken ; return type i degistirmenin hicbir etkisi yoktur
+        Method Overloading olustururken ; access modifier i degistirmenin hicbir etkisi yoktur
+        Method Overloading olustururken ; method u static yada non-static yapmanin hicbir etkisi yoktur
+        Method Overloading olustururken ; bodyi degistirmenin hicbir etkisi yoktur
 
     5) "private" methodlar overload edilebilir. Cunku method overloading sadece bir class icinde olur
     private olmak ise baska classlara gidildiginde problem olusturur.
