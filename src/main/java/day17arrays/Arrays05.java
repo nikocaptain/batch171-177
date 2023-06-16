@@ -8,6 +8,9 @@ public class Arrays05 {
 
         int a[]={0,2,3,0,12,0};
         int b[]=new int[a.length];
+        Arrays.sort(a);
+        System.out.println("Arrays.toString(a) = " + Arrays.toString(a));
+
 
 
         int idx=0;

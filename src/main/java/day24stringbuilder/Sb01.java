@@ -4,7 +4,7 @@ public class Sb01 {
     public static void main(String[] args) {
         /*
         1) StringBuilder classi da string ureten bir classtir.
-        2) String class kullanarak string ureteriz java nicin StringBuilder classi da olusturdu?
+        2) String class kullanarak string uretiriz java nicin StringBuilder classi da olusturdu?
             String class "immutable" (degistirilemez)  string uretir.
             StringBuilder "mutable" (degistirilebilir) string uretir.
         3)"Immutable" olmak demek orjinal degerin korunmasi, degistirilemez olmasi demektir
@@ -29,14 +29,14 @@ public class Sb01 {
         System.out.println(sb1);//Python
         System.out.println(sb1.capacity());
 
-        sb1.append("!!!!!");
+        sb1.append("!");
 
         System.out.println(sb1);//Python!
         System.out.println(sb1.capacity());
 
         //StringBuilder kullanarak string uretmenin 2. yolu:
         StringBuilder sb2 = new StringBuilder();
-        System.out.println(sb2.length());//0
+        System.out.println("sb2 uzunlugu: "+sb2.length());//0
         System.out.println(sb2.capacity());//16
 
         sb2.append("Java");
@@ -56,7 +56,9 @@ public class Sb01 {
 
          */
         StringBuilder sb3=new StringBuilder(3);
+        //StringBuilder sb34=new StringBuilder(8);
         sb3.append("Ali");
+       // sb3.append("123");
         System.out.println(sb3.capacity());//3
         System.out.println("sb3.length() = " + sb3.length());///sb3.length() = 3
 
