@@ -35,7 +35,7 @@ public class ArrayLists01 {
         ages.add(1, 656);
         ages.add(3, 777);
         ages.add(888);
-        System.out.println(ages);
+        System.out.println(ages);//[9, 656, 12, 777, 10, 888]
 
         //List e coklu eleman nasil eklenir? veya List e baska bir list nasil eklenir?
         //Bir list' e coklu eleman eklemek icin o elemanlari once bir list'in icine koymalisiniz.
@@ -46,7 +46,7 @@ public class ArrayLists01 {
         newAges.add(10);
         System.out.println(newAges);//[8, 9, 10]
 
-        ages.addAll(newAges);
+        ages.addAll(newAges);//addAll() methodu ile coklu data eklenir.
         System.out.println(ages);//[9, 656, 12, 777, 10, 888, 8, 9, 10]
 
         ages.addAll(2, newAges);
@@ -65,14 +65,15 @@ public class ArrayLists01 {
         //ArrayList te specific bir eleman nasil degisitirilir?
         ages.set(6, 111);
         ages.set(4, 313);
-        System.out.println(ages);
+        System.out.println(ages);//[9, 656, 8, 9, 313, 12, 111, 10, 888, 8, 9, 10]
 
         //Bir List teki tum elemanlari nasil silebilirim?
-        //ages.clear();
-        //System.out.println(ages);//[]
+        // ages.clear();
+        // System.out.println(ages);//[]
 
         //ArrayListte specific bir elemanin var olup olmadigini nasil anlariz?
         boolean r = ages.contains(656);
+
         System.out.println(r);//true
 
         //Bir ArrayList'in bos olup olmadigini nasil kontrol edebiliriz.

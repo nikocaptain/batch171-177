@@ -7,5 +7,22 @@ public class StudentRunner {
         System.out.println("s1.getNotOrt() = " + s1.getNotOrt());//s1.getNotOrt() = 3.13
         System.out.println("s1.isSuccessful() = " + s1.isSuccessful());//s1.isSuccessful() = false
 
+        System.out.println("============================");
+        s1.setStdId("MU1234567");
+        s1.setNotOrt(4.99);
+        s1.setSuccessful(true);
+        System.out.println("s1.getStdId() = " + s1.getStdId());
+        System.out.println("s1.getNotOrt() = " + s1.getNotOrt());
+        System.out.println("s1.isSuccessful() = " + s1.isSuccessful());
+
+        System.out.println("============================");
+        s1.setStdId("VH1234567");
+        s1.setNotOrt(1.25);
+        s1.setSuccessful(true);
+        System.out.println("s1.getStdId() = " + s1.getStdId());
+        System.out.println("s1.getNotOrt() = " + s1.getNotOrt());
+        System.out.println("s1.isSuccessful() = " + s1.isSuccessful());
+
+
     }
 }

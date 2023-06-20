@@ -24,7 +24,7 @@ public class ArrayLists02 {
        boolean s= names1.equals(names2);
         System.out.println(s);//false
 
-        //ornek:size verilen 2 Integer liste tatmiyla ayni eleman olup olmadigini kontrol ediniz.
+        //ornek:size verilen 2 Integer liste tamamiyla ayni eleman olup olmadigini kontrol ediniz.
 
         ArrayList<Integer> nums1=new ArrayList<>();
         nums1.add(8);
@@ -53,19 +53,19 @@ public class ArrayLists02 {
         cities.add("Istanbul");
         cities.add("Istanbul");
         cities.add("Yozgat");
-        System.out.println(cities);
+        System.out.println(cities);//[Miami, Istanbul, Yozgat, Barcelona, Miami, Istanbul, Istanbul, Yozgat]
 
 
-        //remove() methodu bir elemanin iilk görünümünü siler
+        //remove() methodu bir elemanin ilk görünümünü siler
         //cities.remove("Miami");
         System.out.println(cities.remove("Miami"));//true==> silme işlemini yaptım diyor.
-        System.out.println(cities);
+        System.out.println(cities);//[Istanbul, Yozgat, Barcelona, Miami, Istanbul, Istanbul, Yozgat]
 
 
         //Array List te bir eleman index i kullanilarak nasil silinir?
         //cities.remove(2);
         System.out.println(cities.remove(2));
-        System.out.println(cities);
+        System.out.println(cities);//Barcelona
 
         //remove() methodu index ile kullanilirsa silmiş oldugu datayi return eder.
         //remove() methodu eleman ile kullanilirsa size o elemani silip silmediğini ifadee eden boolean return eder.
@@ -80,9 +80,10 @@ public class ArrayLists02 {
         ages.add(12);
         ages.add(7);
         ages.add(4);
+        System.out.println(ages);//[23, 12, 7, 4]
 
-        //ages.remove(12);
-        //System.out.println(ages);
+//        ages.remove(12);
+//        System.out.println(ages);
 
         //1. yol
         /*Integer nonPrimitive=12;
@@ -94,7 +95,7 @@ public class ArrayLists02 {
 
         //2. yol
         ages.remove((Integer) 12);//Autoboxing==> tavsiye edilir
-        System.out.println(ages);
+        System.out.println(ages);//[23, 7, 4]
 
         //3. yol
 
@@ -108,11 +109,11 @@ public class ArrayLists02 {
         //Bİr ArrayList teki bir elemanin tüm görünümlerini nasil sileriz.
 
 
-        List<String> citiesRemove=new ArrayList<>();//coklu silmelerde Collection olusturmak zorundayiiz
+        List<String> citiesRemove=new ArrayList<>();//coklu silmelerde yeni bir arraylist, Collection olusturmak zorundayiz
         citiesRemove.add("Yozgat");
         citiesRemove.add("Istanbul");
         cities.removeAll(citiesRemove);
-        System.out.println(cities);
+        System.out.println(cities);//[Miami]
 
 
     }
