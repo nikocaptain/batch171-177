@@ -13,7 +13,7 @@ public class Loops01 {
         Code Standartları
         1) Tekrar(repetition) olmamalıdır
         2)Dnamic olmalıdır
-        3)Tamir(Fix) ve update kolay yapılabilmelidir
+        3)Tamir(Fix) ve update kolay yapılabilmelidir.
          */
 
         //2. yol

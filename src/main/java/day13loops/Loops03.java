@@ -14,10 +14,10 @@ public class Loops03 {
             System.out.print(s.charAt(i));
 
         }
-        //"break" ile "continue" arasındaki frak nedir
+        //"break" ile "continue" arasındaki fark nedir
         //"break" switch indisina cikmak icin ve loop u kirmak icin kullanilir.
         //"continue" ise loop yaparken bazi elemanlari isleme sokmamak icin kullanilir.
-        //"continue" keyword u
+        //"continue" keyword u gormeden devam et demektir.
 
     }
 }

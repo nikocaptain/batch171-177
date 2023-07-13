@@ -8,6 +8,8 @@ public class Eighth extends Courses{
 
     @Override
     public void science() {
-
+        System.out.println("8. siniflar fizik dersi almak zorundadir");
     }
+
+
 }

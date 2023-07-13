@@ -7,8 +7,11 @@ public class StudentRunner {
         //class ismini kullanmak yetrlidir.
         System.out.println("Student.stdName = " + Student.stdName);//"Tom Hanks"
         System.out.println("Student.stdName = " + Student.stdName);//"Tom Hanks"
+
+
         Student std=new Student();
         System.out.println("student.age = " + std.age);//13
+
         //stdName static oldugundan ona ulasmak icin object olusturmadim.
         //sadece class ismini yazarak ulastik.
         Student std1=new Student();

@@ -10,7 +10,7 @@ public class Queues01 {
         depo.add("Milk");
         depo.add("Cheese");
         depo.add("meat");
-        System.out.println(depo);
+        System.out.println(depo);//[Egg, Milk, Cheese, meat]
 
         System.out.println(depo.remove());//Egg
         System.out.println(depo);//[Milk, Cheese, meat]
@@ -22,6 +22,8 @@ public class Queues01 {
         depo.clear();
         System.out.println(depo);//[]
         System.out.println(depo.peek());//null
+        System.out.println(depo.poll());//null
+        //System.out.println(depo.element());//Exception in thread "main" java.util.NoSuchElementException
 
 
     }

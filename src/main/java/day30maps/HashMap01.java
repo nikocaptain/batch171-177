@@ -13,7 +13,7 @@ public class HashMap01 {
         /*
         1)Map lerde sözlüklerdeki gibi kelime ve manası şeklinde bir kullanım vardır.
         2)Key kısmı tekrarsızdır,Value kısmı tekrarlı olabilir.
-        3)Map lerdeki her bir elemana entry denilir,tamamına entrySet denir
+        3)Map lerdeki her bir elemana entry(key,value) denilir,tamamına entrySet denir
         4)entry ler tekrarsız oldugu için entrySet denir.
         5)key ve value'lar ayrı ayrı data type larında olabilir.
         6)Map'ler collection değildir farklı bir yapıdır.
@@ -42,7 +42,7 @@ public class HashMap01 {
        Collection<Integer> value= countryPopulation.values();
         System.out.println(value);//[18000000, 400000000, 83000000, 83000000, 30000000]
 
-        //Ornek countrypopulation map indeki nudfusların ortalamnası nedir.
+        //Ornek countrypopulation map indeki nufusların ortalamnası nedir.
 
         Collection<Integer> values= countryPopulation.values();
         int sum=0;

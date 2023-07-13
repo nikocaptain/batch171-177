@@ -21,7 +21,7 @@ public class WhileLoop01 {
 
         //1. Yol
         for (int i = 3; i <7 ; i++) {
-            System.out.print(i+" 1.");
+            System.out.print(i+"*");
 
         }
         System.out.println("");

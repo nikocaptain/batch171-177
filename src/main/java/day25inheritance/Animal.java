@@ -1,6 +1,7 @@
 package day25inheritance;
 
-public class Animal {
+public class
+Animal {
 
     //Inheritance ==> Miras alma OOP Konseptin 1. si
     /*

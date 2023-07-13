@@ -18,7 +18,7 @@ public class Queues02 {
 
         /*
         Queue bir interface dir, bu yuzden constructor i yoktur, dolayisiyla object olustururken new keywordunden
-        sonra Queue yazamayiz. Data tyei Queue olan bir object olusturmak icin
+        sonra Queue yazamayiz. Data type'i Queue olan bir object olusturmak icin
             1)LinkedList veya 2) PriorityQueue classlari kullanilabilir
         Queue olustururken constructor olarak PriorityQueue kullanirsaniz elemanlari kendi belirleyeceginiz kurala gore siralama
         hakkiniz olur
@@ -34,6 +34,11 @@ public class Queues02 {
         d.add("Cheese");
         d.add("Meat");
         System.out.println(d);//[Egg, Milk, Cheese, Meat]
+       String d1= d.peekLast();
+        System.out.println(d1);//Meat
+        d.addFirst("kaşar");
+        System.out.println(d);
+        System.out.println(d.offer("Egg"));//true
 
 
     }

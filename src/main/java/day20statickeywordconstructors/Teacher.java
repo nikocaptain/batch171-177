@@ -16,6 +16,8 @@ public class Teacher {
         this.age = age;
     }
 
+    public Teacher() {
+    }
 
     @Override
     public String toString() {

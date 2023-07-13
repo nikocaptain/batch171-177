@@ -18,12 +18,12 @@ public class LinkedList01 {
 
         /*
         ArrayList'ler eleman ekleme ve silme de tekrar index leme yapmak zorunda
-        olduklarıindan eleman ekleme ve silmede basarisizdirlar
+        olduklarindan eleman ekleme ve silmede basarisizdirlar
 
         Node => Düğümlemek. Pointerler bağlanıyor buradan anlayabiliriz.
         LinkedList'te index yoktur. silmede pointer bir sonrakine geçer otomatik olarak
         LinkedList'te index yoktur. eklemede pointer kırılır eklenen elemanı gösterir,
-        eklenen eleman sonraki elemana bağlanır popinterı da onu gosterir
+        eklenen eleman sonraki elemana bağlanır pointerı da onu gosterir
         1)LinkedListler index kullanmazlar bu yüzden node ekleme ve silme islemlerinde tekrar indexleme yapilmaz
         2)LinkedListlerde node ekleme ve silme islemleri yaparken sadece pointerleri degistirir
          */
@@ -34,7 +34,7 @@ public class LinkedList01 {
    2)LinkedList ler index kullanmadiklarinda node silme ve ekleme de re-index yapilmasina gerek yoktur
    Bu da LinkedList leri eleman ekleme ve silme e cok basarili hale getirir
    Bu yüzden eleman ekleme ve silmenin cok yapilmasi gereken durumlarda LinkedList kullanmak tavsiye edilir
-   3)ArrayList'lerde search işlemi kolay yapilişr cunku indexler data gibidir.
+   3)ArrayList'lerde search işlemi kolay yapilir cunku indexler data gibidir.
    4)LinkedList'lerde search islemi zor yapılır cunku LinkedList'ler index kullanmaz,index kullanmayinca
    herhangi bir elemani bulmak icin en bastan tum elemanlar kontrol edilir buda cok fazla is demektir.
         */
@@ -56,6 +56,8 @@ public class LinkedList01 {
         System.out.println(s);//[mahmut tuncer, nuriye, orhan, omer, bünyamin, saadet, niyazi, bilal, abdullah, nuriye]
         s.addLast("emin");
         System.out.println(s);//[mahmut tuncer, nuriye, orhan, omer, bünyamin, saadet, niyazi, bilal, abdullah, nuriye, emin]
+        s.remove(2);
+        System.out.println(s);//[mahmut tuncer, nuriye, omer, bünyamin, saadet, niyazi, bilal, abdullah, nuriye, emin]
 
 
     }

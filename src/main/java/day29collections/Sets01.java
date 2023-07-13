@@ -78,12 +78,12 @@ public class Sets01 {
 
         System.out.println(ts.lower('E'));//B==>verilen eleman olan E den bir onceki elemanı verir.
 
-        System.out.println(ts.lower('F'));//E==>verilen elemann olan F olmadıgı için olsaydı nerede oldugunu bulup bir oncekini verdi.
+        System.out.println(ts.lower('F'));//E==>verilen eleman olan F olmadıgı için olsaydı nerede oldugunu bulup bir oncekini verdi.
 
         System.out.println(ts.lower('A'));//null
 
         System.out.println(ts.higher('B'));//E verilen eleman olan B den bir sonraki elemanı verir
-        System.out.println(ts.higher('F'));//G verilen elemann olan G olmadıgı için olsaydı nerede oldugunu bulup bir sonrakini verdi.
+        System.out.println(ts.higher('F'));//G verilen elemann olan F olmadıgı için olsaydı nerede oldugunu bulup bir sonrakini verdi.
 
         System.out.println(ts.headSet('E'));//[A, B]
 

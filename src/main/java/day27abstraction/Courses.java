@@ -1,6 +1,7 @@
 package day27abstraction;
 
-public abstract class Courses {
+public abstract class
+Courses {
     //Abstraction
 
     public abstract void math();
